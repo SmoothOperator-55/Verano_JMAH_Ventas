@@ -7,32 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="Layout\GenericList.razor" />
-    <Content Remove="Pages\Countries\CountriesIndex.razor" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="CurrieTechnologies.Razor.SweetAlert2" Version="5.6.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.5" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.5" PrivateAssets="all" />
   </ItemGroup>
 
   <ItemGroup>
-    <UpToDateCheckInput Remove="Pages\Countries\CountriesIndex.razor" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <_ContentIncludedByDefault Remove="Layout\GenericList.razor" />
-    <_ContentIncludedByDefault Remove="Pages\Countries\CountriesIndex.razor" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Layout\GenericList.razor" />
-    <None Include="Pages\Countries\CountriesIndex.razor" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <UpToDateCheckInput Remove="Layout\GenericList.razor" />
+    <ProjectReference Include="..\Sales.Shared\Sales.Shared.csproj" />
   </ItemGroup>
 
 </Project>

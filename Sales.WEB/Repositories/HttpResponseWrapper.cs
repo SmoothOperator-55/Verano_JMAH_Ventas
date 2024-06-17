@@ -1,7 +1,6 @@
 ﻿using System.Net;
 
-
-namespace Web.Repositories
+namespace Sales.WEB.Repositories
 {
     public class HttpResponseWrapper<T>
     {

@@ -3,8 +3,8 @@
 @page "/countries"
 @inject IRepository Repository
 <h3>Paises</h3>
-<a class="btn btn-primary" href="/countries/create">Nuevo País</a>
 
+<a class="btn btn-primary" href="/countries/create">Nuevo País</a>
 <GenericList MyList="Countries">
 
 	<Loading>
@@ -43,8 +43,10 @@
 
 
 
+
+
 @code {
-	public IList <Country>?  Countries{ get; set; }
+	public IList<Country>? Countries { get; set; }
 
 	protected async override Task OnInitializedAsync()
 	{
