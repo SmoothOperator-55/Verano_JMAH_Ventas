@@ -14,7 +14,7 @@
 	private Country country = new();
 
 	private CountryForm? countryForm;
-
+	
 	private async Task Create()
 	{
 		var httpResponse = await repository.Post("/api/countries", country);
