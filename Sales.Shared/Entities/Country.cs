@@ -8,17 +8,14 @@ using System.Threading.Tasks;
 
 namespace Sales.Shared.Entities
 {
-    public class Country
-    {
-        public int Id { get; set; }
-      
-        [Display (Name= "Pais")]
-        [MaxLength(100, ErrorMessage ="El campo debe de tener un maximo de 1 caracteres")]
-        [Required(ErrorMessage ="El campo es obligatorio")]
+	public class Country
+	{
+		public int Id { get; set; }
 
-        public string Name { get; set; } = null;
+		[Display(Name = "Pais")]
+		[MaxLength(100, ErrorMessage = "El campo {0} debe de tener un maximo de {1} caracteres")]
+		[Required(ErrorMessage = "El cam1po {0} es obligatorio")]
 
-
-      
-    }
+		public string Name { get; set; } = null!;
+	}
 }
