@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sales.API", "Sales.API\Sale
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sales.Mobile", "Sales.Mobile\Sales.Mobile.csproj", "{92EE8E5E-142E-4641-B2B8-F66DB15BA4EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales.WEB", "Sales.WEB\Sales.WEB.csproj", "{3445A9CC-7A54-46D4-9250-A9AF0D4592D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sales.WEB", "Sales.WEB\Sales.WEB.csproj", "{3445A9CC-7A54-46D4-9250-A9AF0D4592D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
